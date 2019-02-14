@@ -11,7 +11,7 @@
 /////////////// Date Settings //////////////////
 
 // Changed date to  February 3, 2018, 03:15:28
-var thisTime = new Date("February 3, 2018, 03:15:28");
+var thisTime = new Date();
 var timeStr = thisTime.toLocaleString();
 //changed the html using the inner Html method
 document.getElementById("timeStamp").innerHTML = timeStr;
